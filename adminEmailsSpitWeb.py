@@ -42,7 +42,7 @@ with col1:
     # key="input_contacts" es importante para mantener el estado del widget
     # height=300 ajusta la altura del área de texto
     input_text = st.text_area(
-        # "INPUT:",
+        "",
         height=300,
         key="input_contacts"
     )
@@ -54,7 +54,7 @@ with col2:
 
     # `st.text_area` para mostrar el resultado, deshabilitado para edición
     st.text_area(
-        # "OUTPUT",
+        "",
         value=output_emails,
         height=300,
         disabled=True,  # El usuario no puede escribir aquí
