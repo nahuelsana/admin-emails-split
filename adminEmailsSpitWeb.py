@@ -62,4 +62,4 @@ with col2:
     )
 
 st.markdown("---")
-st.markdown("Hecho con ❤️ en Python y Streamlit.")
+# st.markdown("Hecho con ❤️ en Python y Streamlit.")
