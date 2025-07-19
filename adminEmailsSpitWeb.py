@@ -28,7 +28,7 @@ def extract_and_clean_emails(contact_list_text):
 
 st.set_page_config(layout="wide")  # Configura el diseño para usar todo el ancho de la página
 
-st.title("✉️ Admin email magic")
+st.title("✉️ Admin Email Magic")
 
 st.write(
     "Copiar y pegar la lista de contactos (tal cual esta en el excel) a la izquierda y clickear afuera del cuadro")
