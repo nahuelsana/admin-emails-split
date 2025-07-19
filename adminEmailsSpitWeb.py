@@ -31,7 +31,7 @@ st.set_page_config(layout="wide")  # Configura el diseño para usar todo el anch
 st.title("✉️ Admin Email Magic")
 
 st.write(
-    "Copiar y pegar la lista de contactos (tal cual esta en el excel) a la izquierda y clickear afuera del cuadro")
+    "Copiar y pegar la lista de contactos (tal cual en el excel) a la izquierda y clickear afuera del cuadro")
 
 # Divide la página en dos columnas
 col1, col2 = st.columns(2)
